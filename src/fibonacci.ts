@@ -10,7 +10,7 @@ export const computeFibonacciNumber = (position: number | null): number => {
     if (notNullPosition < 0) {
         return computeNegativeFibonacci(position);
     }
-    
+
     if (notNullPosition <= 2) {
         return 1;
     }
